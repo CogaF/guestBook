@@ -1,0 +1,32 @@
+<resources>
+
+    <!--   English language   -->
+ <string name="app_name"> </string>
+ <string name="income"> </string>
+ <string name="exit"> </string>
+ <string name="action_settings"> </string>
+ <string name="name"> </string>
+ <string name="surname"> </string>
+ <string name="hoster"> </string>
+ <string name="signature"> </string>
+ <string name="greet"> </string>
+ <string name="confirm"> </string>
+ <string name="deny"> </string>
+ <string name="positive"> </string>
+ <string name="negative"> </string>
+ <string name="proceed"> </string>
+ <string name="password"> </string>
+ <string name="holdTime"> </string>
+ <string name="list"> </string>
+ <string name="exitAll"> </string>
+ <string name="forceExit"> </string>
+    <string name="accept_terms"> </string>
+ <string name="disclaimer">Rules</string>
+
+ <!--<string name=""></string>
+ <string name=""></string>
+ <string name=""></string>
+ <string name=""></string>
+ -->
+
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="140">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="30">
+    <TextView
+        android:id="@+id/textNameID"
+        android:text="@string/name"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAllCaps="true"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        android:layout_weight="5"
+        />
+    <EditText
+        android:id="@+id/NameID"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="3"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="30">
+    <TextView
+        android:id="@+id/textSurnameID"
+        android:text="@string/surname"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textSize="21sp"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        android:layout_weight="5"
+        />
+        <EditText
+            android:id="@+id/surnameID"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="30">
+
+        <TextView
+            android:id="@+id/textVisiteeID"
+            android:text="@string/hoster"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="21sp"
+            android:layout_marginEnd="15dp"
+            android:textAlignment="center"
+            android:layout_weight="5"
+            />
+        <Spinner
+            android:id="@+id/visiteeID"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="20">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_weight="30">
+
+        <Button
+            android:id="@+id/proceedFirstID"
+            android:text="@string/proceed"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="21sp"
+            android:layout_marginEnd="15dp"
+            android:textAlignment="center"
+            android:layout_weight="5" />
+
+    </LinearLayout>
+
+</LinearLayout>

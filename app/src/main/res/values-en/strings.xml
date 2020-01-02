@@ -1,0 +1,32 @@
+<resources>
+
+<!--   English language   -->
+    <string name="app_name">Guest book</string>
+    <string name="income">In</string>
+    <string name="exit">Out</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="hoster">Visitee</string>
+    <string name="signature">Signature</string>
+    <string name="greet">Welcome in </string>
+    <string name="confirm">Confirm</string>
+    <string name="deny">Deny</string>
+    <string name="positive">Yes</string>
+    <string name="negative">No</string>
+    <string name="proceed">Proceed</string>
+    <string name="password">Password</string>
+    <string name="holdTime">Data permanence (Hours)</string>
+    <string name="list">Visitor list</string>
+    <string name="exitAll">All guests are gone</string>
+    <string name="forceExit">Guest is gone</string>
+    <string name="accept_terms">Accept Terms</string>
+    <string name="disclaimer">Rules</string>
+
+    <!--<string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    -->
+
+</resources>

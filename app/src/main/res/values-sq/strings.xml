@@ -1,0 +1,32 @@
+<resources>
+
+    <!--   English language   -->
+ <string name="app_name">Regjistër hyrjesh</string>
+ <string name="income">Hyr</string>
+ <string name="exit">Dil</string>
+ <string name="action_settings">Parametrat</string>
+ <string name="name">Emër</string>
+ <string name="surname">Mbiemër</string>
+ <string name="hoster">Kë po vizitoni?</string>
+ <string name="signature">Firma</string>
+ <string name="greet">"Mirë se vini në  "</string>
+ <string name="confirm">Përfundo</string>
+ <string name="deny">Ndalo</string>
+ <string name="positive">Po</string>
+ <string name="negative">Jo</string>
+ <string name="proceed">Vazhdo</string>
+ <string name="password">Flajëkalim</string>
+ <string name="holdTime">Kohëzgjata e të dhenave (Hours)</string>
+ <string name="list">Lista e vizitoreve</string>
+ <string name="exitAll">Të gjithë vizitorët kane dalë</string>
+ <string name="forceExit">Vizitori ka ikur</string>
+    <string name="accept_terms">Prano rregullat</string>
+ <string name="disclaimer">Rules</string>
+
+ <!--<string name=""></string>
+ <string name=""></string>
+ <string name=""></string>
+ <string name=""></string>
+ -->
+
+</resources>

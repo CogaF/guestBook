@@ -1,0 +1,32 @@
+<resources>
+
+    <!--   English language   -->
+    <string name="app_name">Registro ingressi</string>
+    <string name="income">Entra</string>
+    <string name="exit">Esci</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="name">Nome</string>
+    <string name="surname">Cognome</string>
+    <string name="hoster">Referente</string>
+    <string name="signature">Firma</string>
+    <string name="greet">Benvenuti in </string>
+    <string name="confirm">Conferma</string>
+    <string name="deny">Nega</string>
+    <string name="positive">Si</string>
+    <string name="negative">No</string>
+    <string name="proceed">Procedi</string>
+    <string name="password">Password</string>
+    <string name="holdTime">Temp conservazione dati (Hours)</string>
+    <string name="list">Lisit persone in sede</string>
+    <string name="exitAll">Tutti i visitatori sono usciti</string>
+    <string name="forceExit">Visitatore uscito</string>
+    <string name="accept_terms">Accetta il regolamento</string>
+    <string name="disclaimer">Rules</string>
+
+    <!--<string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    -->
+
+</resources>

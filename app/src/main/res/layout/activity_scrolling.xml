@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:screenOrientation="landscape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/parent"
+    tools:context=".NewGuest">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+        <!--app:showAsAction="never" -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginEnd="55dp"
+            android:background="@drawable/button_green_round"
+            android:shape="oval"
+            android:text="@string/income"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="21sp"
+            tools:text="@string/income" />
+
+        <Button
+            android:id="@+id/button_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="55dp"
+            android:background="@drawable/button_red_round"
+            android:ellipsize="none"
+            android:shape="oval"
+            android:text="@string/exit"
+            android:textAllCaps="true"
+            android:textSize="21sp"
+            tools:text="@string/exit" />
+
+    </LinearLayout>
+
+
+    <!-- <android.support.design.widget.AppBarLayout
+         android:id="@+id/app_bar"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/app_bar_height"
+         android:fitsSystemWindows="true"
+         android:theme="@style/AppTheme.AppBarOverlay">
+
+         <android.support.design.widget.CollapsingToolbarLayout
+             android:id="@+id/toolbar_layout"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:fitsSystemWindows="true"
+             app:contentScrim="?attr/colorPrimary"
+             app:layout_scrollFlags="scroll|exitUntilCollapsed"
+             app:toolbarId="@+id/toolbar">
+
+             <android.support.v7.widget.Toolbar
+                 android:id="@+id/toolbar"
+                 android:layout_width="match_parent"
+                 android:layout_height="?attr/actionBarSize"
+                 app:layout_collapseMode="pin"
+                 app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+         </android.support.design.widget.CollapsingToolbarLayout>
+     </android.support.design.widget.AppBarLayout>-->
+<!--
+    <include layout="@layout/content_scrolling" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--app:layout_anchor="@id/app_bar"-->
+        <!--app:layout_anchorGravity="bottom|end"-->
+        <!--app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>
